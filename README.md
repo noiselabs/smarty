@@ -1,5 +1,5 @@
-Smarty - the compiling PHP template engine
-==========================================
+[Smarty][@smarty] PHP Template Engine
+=====================================
 
 [@noiselabs]:       https://github.com/noiselabs            "NoiseLabs.org"
 [@ppi]:             http://www.ppi.io/                      "PPI Framework"
@@ -9,7 +9,7 @@ Smarty - the compiling PHP template engine
 About this repository
 ---------------------
 
-This repository was created from the [Smarty][@smarty] [svn sources](https://smarty-php.googlecode.com/svn) using the [svn2git](https://github.com/nirvdrum/svn2git) tool:
+This repository was created from the [Smarty svn sources](https://smarty-php.googlecode.com/svn) using the [svn2git](https://github.com/nirvdrum/svn2git) tool:
 
     $ svn2git https://smarty-php.googlecode.com/svn -v
 
@@ -44,18 +44,18 @@ See the [Smarty3 Manual](http://www.smarty.net/docs/en/) for other features and 
 What is SmartyBundle?
 ---------------------
 
-SmartyBundle is a module that allows the usage of the Smarty template engine in the [Symfony2][@symfony.com] and [PPI2][@ppi] frameworks.
+SmartyBundle is a module that allows the usage of the Smarty template engine in the [Symfony2][@symfony] and [PPI2][@ppi] frameworks.
 
 Authors
 -------
 
-# Smarty authors
+### Smarty authors
 
 https://code.google.com/p/smarty-php/people/list
 
-# noiselabs/smarty authors
+### noiselabs/smarty authors
 
-Vítor Brandão - <vitor@noiselabs.org> ~ [twitter.com/noiselabs](http://twitter.com/noiselabs) ~ [www](http://noiselabs.org)
+Vítor Brandão - <vitor@noiselabs.org> ~ [twitter.com/noiselabs](http://twitter.com/noiselabs) ~ [www.noiselabs.org](http://noiselabs.org)
 
 See also the list of [contributors](https://github.com/noiselabs/smarty/contributors) who participated in this project.
 
