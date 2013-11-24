@@ -1,8 +1,8 @@
 {
-    "name": "smarty/smarty",
+    "name": "noiselabs/smarty",
     "type": "library",
-    "description": "Smarty - the compiling PHP template engine",
-    "keywords": ["templating"],
+    "description": "Smarty PHP Template Engine (patched for SmartyBundle)",
+    "keywords": ["templating", "noiselabs"],
     "homepage": "http://www.smarty.net",
     "license": "LGPL-3.0",
     "authors": [
@@ -17,13 +17,18 @@
         {
             "name": "Rodney Rehm",
             "email": "rodney.rehm@medialize.de"
+        },
+        {
+            "name": "Vítor Brandão",
+            "email": "vitor@noiselabs.org",
+            "homepage": "http://noiselabs.org"
         }
     ],
     "support": {
         "irc": "irc://irc.freenode.org/smarty",
         "issues": "http://code.google.com/p/smarty-php/issues/list",
         "forum": "http://www.smarty.net/forums/",
-        "source": "http://code.google.com/p/smarty-php/source/browse/"
+        "source": "https://github.com/noiselabs/smarty"
     },
     "require": {
         "php": ">=5.2"
