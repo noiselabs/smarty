@@ -65,3 +65,5 @@ Submitting bugs and feature requests
 Smarty issues should be reported to its [own bugtracker on GoogleCode](https://code.google.com/p/smarty-php/issues/list).
 
 Specific issues regarding this repository may be reported here on [GitHub](https://github.com/noiselabs/smarty/issues).
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/noiselabs/smarty/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
