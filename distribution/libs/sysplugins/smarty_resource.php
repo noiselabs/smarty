@@ -146,7 +146,17 @@ abstract class Smarty_Resource
         if ($_basename) {
             $_basename = '.' . $_basename;
         }
-
+        /**
+         * Modified by Biber Ltd.
+         * @author: Can Berkol
+         * @date: 12.12.2013
+         * @description: ":" is a reserved file path character in Windows environments and needs to be removed from
+         *                  Smarty include paths.
+         */
+        if (Smarty::$_IS_WINDOWS) {
+            $_basename = preg_replace('/:/', '.', $_basename);
+        }
+        /** ****** */
         $compiled->filepath = $_compile_dir . $_filepath . '.' . $compiled->source->type . $_basename . $_cache . '.php';
     }
 
